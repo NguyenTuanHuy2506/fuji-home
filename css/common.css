@@ -10,6 +10,11 @@
     src: url(../assets/plugins/fonts/SourceHanSansRegular.otf);
 }
 
+@font-face {
+    font-family: HelveticaCondensed;
+    src: url(../assets/plugins/fonts/HelveticaCondensed.otf);
+}
+
 body {
     position: relative;
     font-weight: 400;
@@ -1075,6 +1080,7 @@ footer .copy {
 ====================*/
 
 #sub-mv {
+    /* position: relative; */
     background: #fcfcfa right center no-repeat;
     background-size: cover;
 }
