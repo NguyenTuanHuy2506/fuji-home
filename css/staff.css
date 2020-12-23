@@ -25,41 +25,14 @@
     font-weight: 500;
 }
 
-.site-staff .w-h-100 {
-    width: 100%;
-    height: 100%;
-}
-
-.site-staff .w-100 {
-    width: 100%;
-}
-
-.site-staff .h-100 {
-    height: 100%;
-}
-
-.site-staff .w-100v {
-    width: 100vw;
-}
-
-.site-staff .h-100v {
-    height: 100vh;
-}
-
-.site-staff .wmax {
-    max-width: 100%;
-}
-
 .site-staff img {
     max-width: 100%;
     display: block;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .site-staff a {
-    color: inherit;
     display: block;
-    -webkit-transition: all .3s ease;
-            transition: all .3s ease;
 }
 
 .site-staff a:hover {
@@ -83,10 +56,24 @@
 
 #sub-mv {
     background-image: url("../images/staff/img_banner.jpg");
+    background-position: right top;
+    min-height: 100px;
+    margin-top: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 20vw;
 }
 
 .SortField {
-    margin: 40px 0 60px;
+    margin: 30px 0 60px;
+}
+
+.SortField-title {
+    margin-bottom: 20px;
 }
 
 .SortField-lists {
@@ -96,7 +83,7 @@
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin: 20px auto 0;
+    margin: 0 auto;
 }
 
 .SortField-list {
@@ -106,8 +93,9 @@
     background-color: white;
     width: 50%;
     text-align: center;
-    padding: 10px 0;
     min-width: 130px;
+    line-height: 4.5rem;
+    text-align: center;
 }
 
 .SortField-list::after, .SortField-list::before {
@@ -149,8 +137,19 @@
 
 .staff-infor {
     border-bottom: 1px solid #f23d28;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .staff-infor .tex-orange {
@@ -169,9 +168,11 @@
 
 .staff-infor .tex-orange span {
     display: inline-block;
-    padding: 5px 10px;
+    padding: 0 10px;
     background-color: #f23d28;
     color: white;
+    line-height: 2.6rem;
+    text-align: center;
 }
 
 .staff-infor .tex-orange span:not(:last-child) {
@@ -189,6 +190,11 @@
     -ms-flex-pack: start;
     justify-content: flex-start;
     margin-right: 20px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 .staff-h2 .text-big {
@@ -200,8 +206,24 @@
     color: #9f9f9f;
 }
 
+.staff-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
 .staff-content > * {
     margin-bottom: 15px;
+    width: 100%;
+    min-width: 300px;
 }
 
 .staff-content .slick-dots {
@@ -227,8 +249,12 @@
     background-color: #f23d28;
 }
 
-.staff-details-lists {
-    margin-top: 10px;
+.staff-content .slick-dotted.slick-slider {
+    margin-bottom: 35px;
+}
+
+.staff-details > p:first-of-type {
+    margin-bottom: 15px;
 }
 
 .staff-details-list {
@@ -264,7 +290,11 @@
 }
 
 .staff-extra {
-    margin-top: 10px;
+    margin-top: 15px;
+}
+
+.staff-extra > * {
+    max-width: 540px;
 }
 
 .staff-extra > *:not(:last-child) {
@@ -272,7 +302,27 @@
 }
 
 .staff-extra-h3 {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    line-height: 1;
+}
+
+.staff-extra-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.staff-extra-img figure {
+    width: 100%;
+    min-width: 200px;
 }
 
 .staff-extra-img figure:not(:last-of-type) {
@@ -297,10 +347,17 @@
     background-color: #e9f3f7;
     padding: 10px;
     position: relative;
+    max-width: 385px;
 }
 
 .staff-contentment-wrap p .shape-arrow {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
     overflow: hidden;
     position: absolute;
     top: 20%;
@@ -311,14 +368,27 @@
             transform: translateX(-100%);
 }
 
-.staff-contentment-wrap p .shape-arrow::after {
+.staff-contentment-wrap p .shape-arrow::after,
+.staff-contentment-wrap p .shape-arrow::before {
     display: block;
     width: 100%;
-    height: 100%;
+    height: 50%;
     content: '';
     background-color: #e9f3f7;
-    -webkit-transform: translateX(50%) rotate(45deg);
-            transform: translateX(50%) rotate(45deg);
+}
+
+.staff-contentment-wrap p .shape-arrow::after {
+    -webkit-transform-origin: top left;
+             transform-origin: top left;
+    -webkit-transform: skewX(65deg);
+            transform: skewX(65deg);
+}
+
+.staff-contentment-wrap p .shape-arrow::before {
+    -webkit-transform-origin: bottom left;
+             transform-origin: bottom left;
+    -webkit-transform: skewX(-65deg);
+            transform: skewX(-65deg);
 }
 
 .staff-contentment-img {
@@ -327,7 +397,7 @@
 
 .WhoseField {
     font-family: 'Noto Sans JP', sans-serif;
-    margin: 60px 0;
+    margin: 60px 0 40px;
     min-width: 154px;
 }
 
@@ -347,15 +417,51 @@
 
 .WhoseField-lists {
     margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 .WhoseField-list {
-    margin-bottom: 20px;
+    min-width: 170px;
+    width: 100%;
+}
+
+.WhoseField-list:not(:last-child) {
+    margin-bottom: 35px;
 }
 
 .WhoseField-list h3 {
     text-align: left;
-    margin-top: 10px;
+    margin-top: 15px;
+    line-height: 1;
+}
+
+.WhoseField-list.none {
+    height: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .staff-h2 .text-big, .WhoseField-title .text-above {
+        font-size: clamp(1.8rem, 2.3vw, 2.5rem);
+    }
+    .staff-extra-h3, .WhoseField-list h3 {
+        font-size: clamp(1.6rem, 2vw, 2rem);
+    }
+    .SortField-title {
+        font-size: clamp(1.6rem, 1.9vw, 1.8rem);
+    }
+    .staff-h2 .text-small {
+        font-size: clamp(1.2rem, 1.4vw, 1.4rem);
+    }
+    .site-staff {
+        font-size: clamp(1.4rem, 1.6vw, 1.6rem);
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -371,22 +477,123 @@
     .staff-h2 .text-small {
         font-size: 1.4rem;
     }
+    .site-staff {
+        font-size: 1.6rem;
+    }
+    #sub-mv {
+        display: block;
+        margin-top: 0;
+        height: auto;
+    }
+    .SortField {
+        margin: 40px 0 120px;
+    }
+    .SortField-title {
+        margin-bottom: 40px;
+    }
+    .SortField-list {
+        line-height: 6.5rem;
+    }
+    .staff-list:not(:last-of-type) {
+        margin-bottom: 55px;
+    }
     .staff-infor {
         padding-bottom: 20px;
+        margin-bottom: 50px;
     }
     .staff-infor .tex-orange {
         margin: 0;
     }
     .staff-infor .tex-orange span {
-        padding: 7px 12px;
+        padding: 0 12px;
+        line-height: 3.2rem;
     }
-    .staff-details-list > * {
-        margin: 0;
+    .staff-content {
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    }
+    .staff-img {
+        max-width: 420px;
+        margin-right: 20px;
+    }
+    .staff-details {
+        max-width: 645px;
+        min-width: 350px;
+    }
+    .staff-details > p:first-of-type {
+        margin-bottom: 30px;
     }
     .staff-details-list .text-box {
         max-width: 110px;
+        min-width: 110px;
         line-height: 3rem;
+        margin-right: 30px;
+    }
+    .staff-extra {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .staff-extra > * {
+        width: 100%;
+    }
+    .staff-extra > *:not(:last-child) {
+        margin-bottom: 0;
+    }
+    .staff-extra-h3 {
+        margin-bottom: 18px;
+    }
+    .staff-extra-img {
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        margin-right: 20px;
+    }
+    .staff-extra-img figure {
+        max-width: calc(50% - 10px);
+        min-width: 100px;
+    }
+    .staff-extra-img figure:not(:last-of-type) {
+        margin-bottom: 0;
+    }
+    .staff-extra-img p {
+        margin-top: 12px;
+    }
+    .staff-contentment-wrap p {
+        padding: 15px 20px;
+    }
+    .staff-contentment-wrap p .shape-arrow {
+        top: 20px;
+        width: 20px;
+        height: 18px;
+    }
+    .staff-contentment-img {
+        margin-right: 35px;
+        min-width: 80px;
+    }
+    .WhoseField {
+        margin: 120px 0 90px;
+    }
+    .WhoseField-title .text-above {
+        padding-bottom: 24px;
+    }
+    .WhoseField-title .text-under {
+        padding-top: 35px;
+    }
+    .WhoseField-lists {
+        margin-top: 55px;
+    }
+    .WhoseField-list {
+        max-width: calc(100%/3 - 80px/3);
+    }
+    .WhoseField-list:not(:last-child) {
+        margin-bottom: 65px;
+    }
+    .WhoseField-list h3 {
+        margin-top: 20px;
     }
 }
 
-/*# sourceMappingURL=sourcemap/staff.css.map */
