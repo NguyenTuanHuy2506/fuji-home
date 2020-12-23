@@ -14,17 +14,16 @@
 
     <link rel="shortcut icon" href="/images/common/favicon.ico">
 
-    <title></title>
+    <title>スタッフ紹介</title>
     
 	<link href="../css/reset.css" rel="stylesheet">
     <link href="../css/common.css" rel="stylesheet">
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="../css/staff.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;800&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
 	<link href="../js/plugin/slick/slick.css" rel="stylesheet">
 	<link href="../js/plugin/slick/slick-theme.css" rel="stylesheet">
-    <link href="../css/staff.css" rel="stylesheet">
 
 </head>
 <body>
