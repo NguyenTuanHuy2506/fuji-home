@@ -1,0 +1,599 @@
+.staff-h2 .text-big, .WhoseField-title .text-above {
+    font-size: 1.8rem;
+}
+
+.staff-extra-h3, .WhoseField-list h3 {
+    font-size: 1.6rem;
+}
+
+.SortField-title {
+    font-size: 1.6rem;
+}
+
+.staff-h2 .text-small {
+    font-size: 1.2rem;
+}
+
+.staff-h2 .text-big {
+    font-family: 'SourceHanSans', sans-serif;
+    font-weight: bold;
+}
+
+.SortField, .staff-infor .tex-orange, .staff-details, .staff-extra-img,
+.staff-contentment-wrap p {
+    font-family: 'SourceHanSans', sans-serif;
+    font-weight: 500;
+}
+
+.site-staff img {
+    max-width: 100%;
+    display: block;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.site-staff a {
+    display: block;
+}
+
+.site-staff a:hover {
+    opacity: .8;
+}
+
+.site-staff button {
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.site-staff button, .site-staff a {
+    outline: none;
+}
+
+.site-staff .d-block {
+    display: block;
+}
+
+#sub-mv {
+    background-image: url("../images/staff/img_banner.jpg");
+    background-position: right top;
+    min-height: 100px;
+    margin-top: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 20vw;
+}
+
+.SortField {
+    margin: 30px 0 60px;
+}
+
+.SortField-title {
+    margin-bottom: 20px;
+}
+
+.SortField-lists {
+    width: calc(100% - 2px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.SortField-list {
+    position: relative;
+    z-index: 0;
+    color: #a3a3a3;
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    min-width: 130px;
+    line-height: 4.5rem;
+    text-align: center;
+}
+
+.SortField-list::after, .SortField-list::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+}
+
+.SortField-list::after {
+    z-index: -2;
+    border: 2px solid #e0e0e0;
+}
+
+.SortField-list::before {
+    z-index: -1;
+    background-color: black;
+    visibility: hidden;
+}
+
+.SortField-list.active {
+    color: white;
+    z-index: 2;
+}
+
+.SortField-list.active::before {
+    visibility: visible;
+}
+
+.staff {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.staff-list:not(:last-of-type) {
+    margin-bottom: 40px;
+}
+
+.staff-infor {
+    border-bottom: 1px solid #f23d28;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.staff-infor .tex-orange {
+    line-height: 1;
+    margin: 5px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+}
+
+.staff-infor .tex-orange span {
+    display: inline-block;
+    padding: 0 10px;
+    background-color: #f23d28;
+    color: white;
+    line-height: 2.6rem;
+    text-align: center;
+}
+
+.staff-infor .tex-orange span:not(:last-child) {
+    margin-right: 5px;
+}
+
+.staff-h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-right: 20px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.staff-h2 .text-big {
+    margin-right: 12px;
+}
+
+.staff-h2 .text-small {
+    font-weight: 500;
+    color: #9f9f9f;
+}
+
+.staff-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.staff-content > * {
+    margin-bottom: 15px;
+    width: 100%;
+    min-width: 300px;
+}
+
+.staff-content .slick-dots {
+    bottom: 0;
+    padding: 5px 0;
+    height: 22px;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+}
+
+.staff-content .slick-dots > li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ddd;
+}
+
+.staff-content .slick-dots > li button {
+    display: none;
+}
+
+.staff-content .slick-dots > li.slick-active {
+    background-color: #f23d28;
+}
+
+.staff-content .slick-dotted.slick-slider {
+    margin-bottom: 35px;
+}
+
+.staff-details > p:first-of-type {
+    margin-bottom: 15px;
+}
+
+.staff-details-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.staff-details-list > * {
+    margin: 3px 0;
+}
+
+.staff-details-list p {
+    -webkit-box-flex: auto;
+    -ms-flex-positive: auto;
+    flex-grow: auto;
+}
+
+.staff-details-list .text-box {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 90px;
+    min-width: 90px;
+    line-height: 2.5rem;
+    display: block;
+    background-color: #e9f3f7;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.staff-extra {
+    margin-top: 15px;
+}
+
+.staff-extra > * {
+    max-width: 540px;
+}
+
+.staff-extra > *:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.staff-extra-h3 {
+    margin-bottom: 12px;
+    line-height: 1;
+}
+
+.staff-extra-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.staff-extra-img figure {
+    width: 100%;
+    min-width: 200px;
+}
+
+.staff-extra-img figure:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+
+.staff-extra-img p {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.staff-contentment-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.staff-contentment-wrap p {
+    background-color: #e9f3f7;
+    padding: 10px;
+    position: relative;
+    max-width: 385px;
+}
+
+.staff-contentment-wrap p .shape-arrow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    overflow: hidden;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    height: 10px;
+    width: 10px;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+}
+
+.staff-contentment-wrap p .shape-arrow::after,
+.staff-contentment-wrap p .shape-arrow::before {
+    display: block;
+    width: 100%;
+    height: 50%;
+    content: '';
+    background-color: #e9f3f7;
+}
+
+.staff-contentment-wrap p .shape-arrow::after {
+    -webkit-transform-origin: top left;
+             transform-origin: top left;
+    -webkit-transform: skewX(65deg);
+            transform: skewX(65deg);
+}
+
+.staff-contentment-wrap p .shape-arrow::before {
+    -webkit-transform-origin: bottom left;
+             transform-origin: bottom left;
+    -webkit-transform: skewX(-65deg);
+            transform: skewX(-65deg);
+}
+
+.staff-contentment-img {
+    margin-right: 15px;
+}
+
+.WhoseField {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 60px 0 40px;
+    min-width: 154px;
+}
+
+.WhoseField-title span {
+    display: block;
+}
+
+.WhoseField-title .text-above {
+    border-bottom: 1px solid #e50003;
+    padding-bottom: 10px;
+}
+
+.WhoseField-title .text-under {
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.WhoseField-lists {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.WhoseField-list {
+    min-width: 170px;
+    width: 100%;
+}
+
+.WhoseField-list:not(:last-child) {
+    margin-bottom: 35px;
+}
+
+.WhoseField-list h3 {
+    text-align: left;
+    margin-top: 15px;
+    line-height: 1;
+}
+
+.WhoseField-list.none {
+    height: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .staff-h2 .text-big, .WhoseField-title .text-above {
+        font-size: clamp(1.8rem, 2.3vw, 2.5rem);
+    }
+    .staff-extra-h3, .WhoseField-list h3 {
+        font-size: clamp(1.6rem, 2vw, 2rem);
+    }
+    .SortField-title {
+        font-size: clamp(1.6rem, 1.9vw, 1.8rem);
+    }
+    .staff-h2 .text-small {
+        font-size: clamp(1.2rem, 1.4vw, 1.4rem);
+    }
+    .site-staff {
+        font-size: clamp(1.4rem, 1.6vw, 1.6rem);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .staff-h2 .text-big, .WhoseField-title .text-above {
+        font-size: 2.5rem;
+    }
+    .staff-extra-h3, .WhoseField-list h3 {
+        font-size: 2rem;
+    }
+    .SortField-title {
+        font-size: 1.8rem;
+    }
+    .staff-h2 .text-small {
+        font-size: 1.4rem;
+    }
+    .site-staff {
+        font-size: 1.6rem;
+    }
+    #sub-mv {
+        display: block;
+        margin-top: 0;
+        height: auto;
+    }
+    .SortField {
+        margin: 40px 0 120px;
+    }
+    .SortField-title {
+        margin-bottom: 40px;
+    }
+    .SortField-list {
+        line-height: 6.5rem;
+    }
+    .staff-list:not(:last-of-type) {
+        margin-bottom: 55px;
+    }
+    .staff-infor {
+        padding-bottom: 20px;
+        margin-bottom: 50px;
+    }
+    .staff-infor .tex-orange {
+        margin: 0;
+    }
+    .staff-infor .tex-orange span {
+        padding: 0 12px;
+        line-height: 3.2rem;
+    }
+    .staff-content {
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    }
+    .staff-img {
+        max-width: 420px;
+        margin-right: 20px;
+    }
+    .staff-details {
+        max-width: 645px;
+        min-width: 350px;
+    }
+    .staff-details > p:first-of-type {
+        margin-bottom: 30px;
+    }
+    .staff-details-list .text-box {
+        max-width: 110px;
+        min-width: 110px;
+        line-height: 3rem;
+        margin-right: 30px;
+    }
+    .staff-extra {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .staff-extra > * {
+        width: 100%;
+    }
+    .staff-extra > *:not(:last-child) {
+        margin-bottom: 0;
+    }
+    .staff-extra-h3 {
+        margin-bottom: 18px;
+    }
+    .staff-extra-img {
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        margin-right: 20px;
+    }
+    .staff-extra-img figure {
+        max-width: calc(50% - 10px);
+        min-width: 100px;
+    }
+    .staff-extra-img figure:not(:last-of-type) {
+        margin-bottom: 0;
+    }
+    .staff-extra-img p {
+        margin-top: 12px;
+    }
+    .staff-contentment-wrap p {
+        padding: 15px 20px;
+    }
+    .staff-contentment-wrap p .shape-arrow {
+        top: 20px;
+        width: 20px;
+        height: 18px;
+    }
+    .staff-contentment-img {
+        margin-right: 35px;
+        min-width: 80px;
+    }
+    .WhoseField {
+        margin: 120px 0 90px;
+    }
+    .WhoseField-title .text-above {
+        padding-bottom: 24px;
+    }
+    .WhoseField-title .text-under {
+        padding-top: 35px;
+    }
+    .WhoseField-lists {
+        margin-top: 55px;
+    }
+    .WhoseField-list {
+        max-width: calc(100%/3 - 80px/3);
+    }
+    .WhoseField-list:not(:last-child) {
+        margin-bottom: 65px;
+    }
+    .WhoseField-list h3 {
+        margin-top: 20px;
+    }
+}
+
