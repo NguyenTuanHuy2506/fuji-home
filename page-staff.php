@@ -28,50 +28,50 @@
 <body>
 <div id="wrapper">
 <div class="wrapper2c">
-<header>
-    <div class="fuji-toplogo">
-        <div id="logo">
-            <a href="/">
-                <img src="images/img_fuji_logo.png" alt="トップロゴ">
-            </a>
-        </div>        <p>京都・滋賀で施工事例No.1の<br>フジ・ホームにお任せください</p>
-    </div>
-    
-    <div class="sp-only">
-        <div class="header-hamburger">
-            <p>MENU</p>
-            <span class="line line-top"></span>
-            <span class="line line-middle"></span>
-            <span class="line line-bottom"></span>
-        </div>
-    </div><!--sp-only-->
-				
-    <div class="header-menu">
-        <nav>
-            <ul>
-                <li><a href="/reason/">選ばれる理由</a></li>
-                <li><a href="/reform_flow/">リフォームの流れ</a></li>
-                <li><a href="/reform/">リフォームメニュー</a></li>
-                <li><a href="/works/">施工事例</a></li>
-                <li><a href="/voice/">お客様の声</a></li>
-                <li><a href="/store/">お近くのフジ・ホーム</a></li>
-            </ul>
-        </nav>
-    　　<div class="head-contacts"> 
-            <div class="head-flex">
-                <p><a href="kantan-mitsumori/">無料<br>お見積り</a></p>
-                <p><a href="/">リフォーム<br>相談会</a></p>
-            </div><!--head-flex-->
-            <p class="tocontact link-btn01"><a href="/contact/"><span class="inner-link-btn01"><img src="images/img_fuji_pen.png" alt="ペンロゴ">お問い合わせ<i class="icon-easy">簡単！</i></span></a></p>
-            <div class="tel-area">
-                <div class="totell">お電話でのお問い合わせ</div>
-                <div class="tellnumber"><a href="tel:0120-272-833">0120-272-833</a></div>
-                <div class="hoursop">営業時間 9:00～20:30(年中無休)</div>
-            </div><!--tel-area-->
-    　　</div><!--head-contacts-->
-    </div><!--header-menu-->
+	<header>
+		<div class="fuji-toplogo">
+			<div id="logo">
+				<a href="/">
+					<img src="images/img_fuji_logo.png" alt="トップロゴ">
+				</a>
+			</div>        <p>京都・滋賀で施工事例No.1の<br>フジ・ホームにお任せください</p>
+		</div>
 		
-</header>
+		<div class="sp-only">
+			<div class="header-hamburger">
+				<p>MENU</p>
+				<span class="line line-top"></span>
+				<span class="line line-middle"></span>
+				<span class="line line-bottom"></span>
+			</div>
+		</div><!--sp-only-->
+					
+		<div class="header-menu">
+			<nav>
+				<ul>
+					<li><a href="/reason/">選ばれる理由</a></li>
+					<li><a href="/reform_flow/">リフォームの流れ</a></li>
+					<li><a href="/reform/">リフォームメニュー</a></li>
+					<li><a href="/works/">施工事例</a></li>
+					<li><a href="/voice/">お客様の声</a></li>
+					<li><a href="/store/">お近くのフジ・ホーム</a></li>
+				</ul>
+			</nav>
+		　　<div class="head-contacts"> 
+				<div class="head-flex">
+					<p><a href="kantan-mitsumori/">無料<br>お見積り</a></p>
+					<p><a href="/">リフォーム<br>相談会</a></p>
+				</div><!--head-flex-->
+				<p class="tocontact link-btn01"><a href="/contact/"><span class="inner-link-btn01"><img src="images/img_fuji_pen.png" alt="ペンロゴ">お問い合わせ<i class="icon-easy">簡単！</i></span></a></p>
+				<div class="tel-area">
+					<div class="totell">お電話でのお問い合わせ</div>
+					<div class="tellnumber"><a href="tel:0120-272-833">0120-272-833</a></div>
+					<div class="hoursop">営業時間 9:00～20:30(年中無休)</div>
+				</div><!--tel-area-->
+		　　</div><!--head-contacts-->
+		</div><!--header-menu-->
+			
+	</header>
 <div id="main-column">
 <main>
 	<section id="sub-mv">
