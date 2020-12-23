@@ -12,7 +12,7 @@
 	<meta property="og:image" content="/images/ogp.png">
 	<meta property="og:site_name" content="">
 
-    <link rel="shortcut icon" href="/images/common/favicon.ico">
+    <link rel="shortcut icon" href="../images/common/favicon.ico">
 
     <title>スタッフ紹介</title>
     
