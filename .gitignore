@@ -6,3 +6,4 @@ package-lock.json
 *.json
 package.json
 css/sourcemap
+css/contributions.css.map
